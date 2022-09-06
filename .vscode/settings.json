@@ -1,0 +1,52 @@
+{
+	"window.zoomLevel": 2,
+	"workbench.colorTheme": "Shades of Purple",
+	"cSpell.language": "en,es",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[Typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python"
+	},
+	"[feature]": {
+		"editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+	},
+	"editor.formatOnType": true,
+	"editor.formatOnPaste": false,
+	"editor.formatOnSave": true,
+	"editor.accessibilitySupport": "off",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"python.formatting.provider": "autopep8",
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+	"html.format.wrapLineLength": 150,
+	"prettier.singleQuote": true,
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"prettier.arrowParens": "avoid",
+	"workbench.settings.editor": "json",
+	"cSpell.userWords": [
+		"appium",
+		"appiumby",
+		"Automator",
+		"badeball",
+		"chromedriver",
+		"demoqa",
+		"Elyer",
+		"Uper"
+	],
+	"git.enableSmartCommit": true,
+	"editor.tabCompletion": "on",
+	"editor.lineHeight": 20,
+	"editor.cursorBlinking": "expand",
+	"cSpell.enableFiletypes": ["cucumber"],
+	"workbench.iconTheme": "material-icon-theme"
+}
