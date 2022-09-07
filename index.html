@@ -2,90 +2,80 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fish Tank</title>
-    <link rel="stylesheet" href="./style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fish Tank</title>
+  <link rel="stylesheet" href="./src/css/style.css" />
 </head>
 
 <body>
-    <div id="fish-tank">
-        <div id="bubble-field"></div>
-        <div class="plant">
-            <div class="leaf-1"></div>
-        </div>
-        <div class="fish yellow-fish">
-            <div class="top-fin"></div>
-            <div class="fish-body" id="yellow" type="fish" move="fast" onclick="yellowClick()"></div>
-            <div class="tail-fin"></div>
-            <div class="side-fin">
-                <select class="anathomy">
-                    <option value="eye"></option>
-                    <option value="mouth"></option>
-                    <option value="scales"></option>
-                    <option value="fin"></option>
-                    <option value="tail"></option>
-                </select>
-            </div>
-        </div>
-        <div class="fish blue-fish">
-            <div class="top-fin"></div>
-            <div class="fish-body" id="blue" type="fish" move="slow" onclick="blueClick()"></div>
-            <div class="tail-fin"></div>
-            <div class="side-fin">
-                <select class="anathomy">
-                    <option value="eye"></option>
-                    <option value="mouth"></option>
-                    <option value="scales"></option>
-                    <option value="fin"></option>
-                    <option value="tail"></option>
-                </select>
-            </div>
-        </div>
-        <div class="fish white-fish">
-            <div class="top-fin" id="white-fin"></div>
-            <div class="fish-body" id="white" type="fish" move="slow" onclick="whiteClick()"></div>
-            <div class="tail-fin"></div>
-            <div class="side-fin">
-                <select class="anathomy">
-                    <option value="eye"></option>
-                    <option value="mouth"></option>
-                    <option value="scales"></option>
-                    <option value="fin"></option>
-                    <option value="tail"></option>
-                </select>
-            </div>
-        </div>
-        <div class="fish red-fish">
-            <div class="top-fin"></div>
-            <div class="fish-body" id="red" type="fish" move="fast" onclick="redClick()"></div>
-            <div class="tail-fin"></div>
-            <div class="side-fin">
-                <select class="anathomy">
-                    <option value="eye"></option>
-                    <option value="mouth"></option>
-                    <option value="scales"></option>
-                    <option value="fin"></option>
-                    <option value="tail"></option>
-                </select>
-            </div>
-        </div>
+  <div id="fish-tank">
+    <div id="bubble-field"></div>
+    <div class="plant">
+      <div class="leaf-1"></div>
     </div>
-    <script>
-        document.getElementById("blue").onclick = function blueClick() {
-            document.getElementById("blue").innerHTML = "🟢🎣";
-        };
-        document.getElementById("white").onclick = function whiteClick() {
-            document.getElementById("white").innerHTML = "🟢🎣";
-        };
-        document.getElementById("red").onclick = function redClick() {
-            document.getElementById("red").innerHTML = "🟢🎣";
-        };
-        document.getElementById("yellow").onclick = function yellowClick() {
-            document.getElementById("yellow").innerHTML = "🟢🎣";
-        };
-    </script>
+    <div class="fish yellow-fish" draggable="true">
+      <div class="top-fin"></div>
+      <div class="fish-body" id="yellow" type="fish" move="fast" onclick="yellowClick()"></div>
+      <div class="tail-fin"></div>
+      <div class="side-fin">
+        <select class="anathomy">
+          <option value="eye"></option>
+          <option value="mouth"></option>
+          <option value="scales"></option>
+          <option value="fin"></option>
+          <option value="tail"></option>
+        </select>
+      </div>
+    </div>
+    <div class="fish blue-fish">
+      <div class="top-fin"></div>
+      <div class="fish-body" id="blue" type="fish" move="slow" onclick="blueClick()"></div>
+      <div class="tail-fin"></div>
+      <div class="side-fin">
+        <select class="anathomy">
+          <option value="eye"></option>
+          <option value="mouth"></option>
+          <option value="scales"></option>
+          <option value="fin"></option>
+          <option value="tail"></option>
+        </select>
+      </div>
+    </div>
+    <div class="fish white-fish">
+      <div class="top-fin" id="white-fin"></div>
+      <div class="fish-body" id="white" type="fish" move="slow" onclick="whiteClick()"></div>
+      <div class="tail-fin"></div>
+      <div class="side-fin">
+        <select class="anathomy">
+          <option value="eye"></option>
+          <option value="mouth"></option>
+          <option value="scales"></option>
+          <option value="fin"></option>
+          <option value="tail"></option>
+        </select>
+      </div>
+    </div>
+    <div class="fish red-fish">
+      <div class="top-fin"></div>
+      <div class="fish-body" id="red" type="fish" move="fast" onclick="redClick()"></div>
+      <div class="tail-fin"></div>
+      <div class="side-fin">
+        <select class="anathomy">
+          <option value="eye"></option>
+          <option value="mouth"></option>
+          <option value="scales"></option>
+          <option value="fin"></option>
+          <option value="tail"></option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <img class="scuba" src="./src/assets/image/scuba.svg" alt="Scuba Ilustration">
+    </div>
+  </div>
 </body>
+<script src="./src/javascript/script.js"></script>
 
 </html>
